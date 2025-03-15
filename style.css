@@ -76,8 +76,8 @@ button:hover{
   }
   
   .social-icon {
-    width: 60px;
-    height: 60px;
+    width: 3.125vw;
+    height: 3.125vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +89,7 @@ button:hover{
   }
   
   .social-icon img {
-    height: 45px;
+    height: 2.344vw;
     transition: transform 0.5s ease;
   }
   @media (max-width: 768px) {
