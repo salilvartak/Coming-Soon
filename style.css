@@ -1,0 +1,135 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: black;
+    background-image: url('light2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1{
+    font-family: "Inter", sans-serif;
+    color: aliceblue;
+    text-align: center;
+    font-size: 7.5rem;
+    margin-top: 5vh;
+    margin-bottom: 2.5vh;
+    padding: 10px;
+    
+}
+h2{
+    font-family: "Italianno", cursive;
+    color: aliceblue;
+    text-align: center;
+    font-size: 12.5rem;
+    margin: 0%;
+    padding: 10px;
+
+    font-weight: 100;
+}
+button{
+    
+    background-color: #E1EEC3;
+    opacity: 58%;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    border-radius: 30px;
+    align-items: center;
+    transition-duration: 0.4s;
+    border: #faebd700;
+    
+}
+button:hover{
+    opacity: 100%;
+}
+.container {
+    height: 200px;
+    position: relative;
+}
+  
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.social-bar {
+    display: flex;
+    gap: 20px;
+    
+    padding: 15px 30px;
+    border-radius: 20px;
+    justify-content: center;
+    width: fit-content;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+  
+  .social-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+  }
+  .social-icon:hover{
+    opacity: 70%;
+  }
+  
+  .social-icon img {
+    height: 45px;
+    transition: transform 0.5s ease;
+  }
+  @media (max-width: 768px) {
+    h1{
+      font-family: "Inter", sans-serif;
+      color: aliceblue;
+      text-align: center;
+      font-size: 4.5rem;
+      margin-top: 60px;
+      margin-bottom: 20px;
+      padding: 10px;
+      
+  }
+  h2{
+      font-family: "Italianno", cursive;
+      color: aliceblue;
+      text-align: center;
+      font-size: 6rem;
+      margin: 0%;
+      padding: 10px;
+  
+      font-weight: 100;
+  }
+  button{
+    
+    background-color: #E1EEC3;
+    opacity: 58%;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    border-radius: 30px;
+    align-items: center;
+    transition-duration: 0.4s;
+    border: #faebd700;
+    
+}
+button:hover{
+    opacity: 100%;
+}
+    
+}
